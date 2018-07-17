@@ -167,7 +167,7 @@ export default {
 
 Data formats for vue-storefront and vue-storefront-api are the same JSON files. There is Ajv validator (https://github.com/epoberezkin/ajv) used for validation.
 
-The convention is, that schemas are stored under `/src/models` - for example [Order schema](https://github.com/DivanteLtd/vue-storefront/blob/master/core/models/order.schema.json).
+The convention is, that schemas are stored under `/core/store/modules` - for example [Order schema](https://github.com/DivanteLtd/vue-storefront/blob/master/core/store/modules/order/order.schema.json).
 
 Validation of objects is rather straight forward:
 
